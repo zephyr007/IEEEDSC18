@@ -563,8 +563,10 @@ a:hover, a:active {
     display: inline-block;
     padding: 12px 18px;
     margin: 0;
+
     font-size: 16px;
     font-weight: 400;
+    width: 181px;
     text-transform: uppercase;
     color: #fff;
     background: #9a24c1;
@@ -710,7 +712,7 @@ a:hover, a:active {
     }
 
     .homepage-featured-events .positioning-event-4 {
-        width: 160px;
+        width: 200px;
         top: 300px;
         left: 980px;
     }
@@ -746,7 +748,7 @@ a:hover, a:active {
     }
 
     .homepage-featured-events .positioning-event-10 {
-        width: 160px;
+        width: 200px;
         top: 776px;
         left: 855px;
     }
@@ -800,10 +802,11 @@ a:hover, a:active {
 .homepage-next-events .next-event-wrap figure {
     position: relative;
     margin: 0;
+    margin-left: 180px;
 }
 
 .homepage-next-events .next-event-wrap figure img {
-    width: 100%;
+    width: 200%;
 }
 
 .homepage-next-events .next-event-wrap .event-rating {
@@ -811,6 +814,7 @@ a:hover, a:active {
     justify-content: center;
     align-items: center;
     position: absolute;
+
     top: -32px;
     left: 100px;
     width: 78px;
@@ -829,6 +833,7 @@ a:hover, a:active {
     margin-top: 32px;
     font-size: 28px;
     font-weight: bold;
+      margin-left: 300px;
     color: #232127;
 }
 
@@ -836,6 +841,7 @@ a:hover, a:active {
     margin-top: 12px;
     font-size: 18px;
     font-weight: bold;
+  margin-left: 250px;
     text-transform: uppercase;
     color: #777777;
 }
@@ -862,6 +868,7 @@ a:hover, a:active {
     border-bottom: 2px solid #bec0cc;
     text-decoration: none;
     color: #bec0cc;
+      margin-left: 300px;
 }
 
 .homepage-next-events .next-event-wrap .entry-footer a:hover {
