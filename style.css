@@ -67,13 +67,7 @@ a:hover, a:active {
     color: #232127;
 }
 
-.extra {
-   margin :  5px auto;
-   margin-top : 30px;
-   padding-top : 20px;
-   font-size: 32px;
-    line-height: 1.13;
-}
+
 
 .btn.gradient {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojQUEwMEZGOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1ODE2ODc7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
@@ -535,6 +529,22 @@ a:hover, a:active {
     margin-top: 32px;
     margin-right: 18px;
 }
+
+
+.para {
+    text-align: center;
+    margin : 0 200px;
+
+}
+
+.extra {
+   margin :  5px auto;
+   margin-top : 30px;
+   padding-top : 20px;
+   font-size: 32px;
+    line-height: 1.13;
+}
+
 
 /*--------------------------------------------------------------
 # Homepage - Featured Events
