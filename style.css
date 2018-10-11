@@ -581,8 +581,10 @@ a:hover, a:active {
     display: inline-block;
     padding: 12px 18px;
     margin: 0;
+
     font-size: 16px;
     font-weight: 400;
+    width: 181px;
     text-transform: uppercase;
     color: #fff;
     background: #9a24c1;
@@ -648,7 +650,7 @@ a:hover, a:active {
     .homepage-featured-events .positioning-event-2 {
         width: 210px;
         top: 192px;
-        left: 320px;
+        left: 290px;
     }
 
     .homepage-featured-events .positioning-event-3 {
@@ -716,31 +718,31 @@ a:hover, a:active {
     }
 
     .homepage-featured-events .positioning-event-2 {
-        width: 255px;
+        width: 275px;
         top: 230px;
-        left: 380px;
+        left: 350px;
     }
 
     .homepage-featured-events .positioning-event-3 {
-        width: 255px;
+        width: 300px;
         top: 90px;
         left: 665px;
     }
 
     .homepage-featured-events .positioning-event-4 {
-        width: 160px;
-        top: 280px;
-        left: 950px;
+        width: 200px;
+        top: 300px;
+        left: 980px;
     }
 
     .homepage-featured-events .positioning-event-5 {
-        width: 160px;
-        top: 417px;
+        width: 250px;
+        top: 300px;
         left: 0;
     }
 
     .homepage-featured-events .positioning-event-6 {
-        width: 160px;
+        width: 200px;
         top: 410px;
         left: 665px;
     }
@@ -760,19 +762,19 @@ a:hover, a:active {
     .homepage-featured-events .positioning-event-9 {
         width: 255px;
         top: 470px;
-        left: 855px;
+        left: 885px;
     }
 
     .homepage-featured-events .positioning-event-10 {
-        width: 160px;
+        width: 200px;
         top: 776px;
         left: 855px;
     }
 
     .homepage-featured-events .positioning-event-11 {
-        width: 160px;
-        top: 963px;
-        left: 475px;
+        width: 250px;
+        top: 800px;
+        left: 400px;
     }
 }
 
@@ -807,7 +809,9 @@ a:hover, a:active {
         padding: 0 85px;
     }
 }
-
+.next-event-wrap{
+    padding: 24px 0;
+}
 .homepage-next-events .next-event-wrap {
     margin-top: 96px;
     text-align: center;
@@ -816,10 +820,11 @@ a:hover, a:active {
 .homepage-next-events .next-event-wrap figure {
     position: relative;
     margin: 0;
+    margin-left: 180px;
 }
 
 .homepage-next-events .next-event-wrap figure img {
-    width: 100%;
+    width: 200%;
 }
 
 .homepage-next-events .next-event-wrap .event-rating {
@@ -827,8 +832,9 @@ a:hover, a:active {
     justify-content: center;
     align-items: center;
     position: absolute;
+
     top: -32px;
-    left: 32px;
+    left: 100px;
     width: 78px;
     height: 78px;
     border: 2px solid #fff;
@@ -845,6 +851,7 @@ a:hover, a:active {
     margin-top: 32px;
     font-size: 28px;
     font-weight: bold;
+      margin-left: 300px;
     color: #232127;
 }
 
@@ -852,6 +859,7 @@ a:hover, a:active {
     margin-top: 12px;
     font-size: 18px;
     font-weight: bold;
+  margin-left: 250px;
     text-transform: uppercase;
     color: #777777;
 }
@@ -878,6 +886,7 @@ a:hover, a:active {
     border-bottom: 2px solid #bec0cc;
     text-decoration: none;
     color: #bec0cc;
+      margin-left: 300px;
 }
 
 .homepage-next-events .next-event-wrap .entry-footer a:hover {
