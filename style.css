@@ -550,10 +550,9 @@ a:hover, a:active {
 # Homepage - Featured Events
 --------------------------------------------------------------*/
 .homepage-featured-events {
-    height: auto;
     padding: 110px 0 150px;
     background: url("images/featured-events-bg.jpg") no-repeat center;
-    background-size: cover !important;
+    height: 50% !important;
 }
 
 .homepage-featured-events .event-content-wrap {
@@ -631,7 +630,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 992px) {
     .homepage-featured-events {
-        min-height: 1260px;
+        min-height: 500px;
     }
 
     .featured-events-wrap .event-content-wrap {
@@ -708,7 +707,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 1200px) {
     .homepage-featured-events {
-        min-height: 1480px;
+        min-height: 500px;
     }
 
     .homepage-featured-events .positioning-event-1 {
