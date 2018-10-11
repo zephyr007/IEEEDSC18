@@ -552,7 +552,7 @@ a:hover, a:active {
 .homepage-featured-events {
     padding: 110px 0 150px;
     background: url("images/featured-events-bg.jpg") no-repeat center;
-    height: 50% !important;
+    height: 180% !important;
 }
 
 .homepage-featured-events .event-content-wrap {
