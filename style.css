@@ -2223,3 +2223,12 @@ ul.tabs-nav .tab-nav.active {
     fill: #fff;
 }
 
+
+
+@media (min-width: 300px) and (max-width: 900.98px) { 
+    #mainlogo{
+    width: 45%;
+    height: 30%;
+  }
+ }
+
