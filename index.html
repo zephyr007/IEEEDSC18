@@ -26,7 +26,7 @@
 <body>
 <header class="site-header">
     <div class="header-bar">
-        <div class="container-fluid">
+        <div class="container-fluid" id="home">
             <div class="row align-items-center">
                 <div class="col-10 col-lg-2 order-lg-1">
                     <div class="site-branding">
@@ -36,7 +36,7 @@
                     </div><!-- .site-branding -->
                 </div><!-- .col -->
 
-                <div class="col-2 col-lg-7 order-3 order-lg-2">
+                <div class="col-2 col-lg-8 order-3 order-lg-2">
                     <nav class="site-navigation">
                         <div class="hamburger-menu d-lg-none">
                             <span></span>
@@ -47,15 +47,17 @@
 
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Events</a></li>
-                            <li><a href="#">News</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#speakers">Speakers</a></li>
+                            <li><a href="#schedule">Schedule</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#sponsors">Sponsors</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </nav><!-- .site-navigation -->
                 </div><!-- .col -->
 
-                <div class="col-lg-3 d-none d-lg-block order-2 order-lg-3">
+                <div class="col-lg-2 d-none d-lg-block order-2 order-lg-3">
                     <div class="buy-tickets">
                         <a class="btn gradient-bg" href="#">Register Now</a>
                     </div><!-- .buy-tickets -->
@@ -202,7 +204,7 @@
 </header><!-- .site-header -->
 
 <div class="homepage-info-section">
-    <div class="container">
+    <div class="container" id="about">
         <div class="row">
             <div class="col-12 col-md-4 col-lg-5">
                 <figure>
@@ -211,7 +213,7 @@
             </div>
 
             <div class="col-12 col-md-8 col-lg-7">
-                <header class="entry-header">
+                <header class="entry-header" style="text-align: center;">
                     <h2>About the Congress</h2>
                 </header>
 
@@ -293,7 +295,7 @@
 <!-- </div> -->
 
 <div class="homepage-featured-events" style="padding-top: 25px">
-        <header class="entry-header">
+        <header class="entry-header" id="speakers">
                 <h2 class="entry-title" style="font-size: 60px;
                 font-weight: bold;
                 line-height: 1;
@@ -403,10 +405,10 @@
 </div>
 
 <div class="homepage-next-events">
-    <div class="container">
-        <div class="row">
+    <div class="container" id="schedule">
+        <div class="row align-items-center">
             <div class="next-events-section-header">
-                <h2 class="entry-title">SCHEDULE</h2>
+                <h2 class="entry-title" style="text-align: center;">SCHEDULE</h2>
                 <p>Mark your calendars for 28 and 29 October and fill in the events in the organisers because the schedule for DSC is here.</p>
             </div>
         </div>
@@ -425,7 +427,7 @@
                     <header class="entry-header">
                         <a href="./DAY-1.html"><h3 class="entry-title">DAY 1</h3></a>
 
-                        <div class="posted-date">Saturday <span>,3 NOV`2018</span></div>
+                        <div class="posted-date">Saturday<span>, 3 NOV 2018</span></div>
                     </header>
 
                     <div class="entry-content">
@@ -473,7 +475,7 @@
                     <header class="entry-header">
                         <a href="./DAY-2.html"><h3 class="entry-title">DAY 2</h3></a>
 
-                        <div class="posted-date">Sunday <span>,4 NOV`2018</span></div>
+                        <div class="posted-date">Sunday<span>, 4 NOV 2018</span></div>
                     </header>
 
                     <div class="entry-content">
@@ -490,7 +492,7 @@
 </div>
 
 <div class="homepage-regional-events">
-    <div class="container">
+    <div class="container" id="gallery">
         <div class="row">
             <div class="col-12">
                 <header class="regional-events-heading entry-header flex flex-wrap justify-content-between align-items-center">
@@ -623,26 +625,26 @@
                     </div>
                 </div><!-- .swiper-container -->
 
-                <div class="events-partners">
+                <div class="events-partners" id="sponsors">
                     <header class="entry-header">
                         <h2 class="entry-title">Our Sponsers</h2>
                     </header>
-
-                    <div class="events-partners-logos flex flex-wrap justify-content-between align-items-center">
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/googlepng.png" alt="" style="height:150px; width:225px"></a>
+                    <br><br>
+                    <div class="row justify-content-between">
+                        <div class="col-12 col-lg-4">	
+                            <a href="#"><img src="images/googlepng.png" alt="" style="height:80%; width:100%;"></a>
                         </div>
 
                         <!-- <div class="event-partner-logo">
                             <a href="#"><img src="images/download.png" alt=""></a>
                         </div> -->
 
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/pesieee.png" style="height:200px; width:250px" alt=""></a>
+                        <div class="col-12 col-lg-4">
+                            <a href="#"><img src="images/pesieee.png" style="height:80%; width:100%;" alt=""></a>
                         </div>
 
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/swiggy.png" style="height:150px; width:250px" alt=""></a>
+                        <div class="col-12 col-lg-4">
+                            <a href="#"><img src="images/swiggy.png" style="height:80%; width:100%;" alt=""></a>
                         </div>
 
                        <!--  <div class="event-partner-logo">
@@ -677,11 +679,11 @@
 </div>
 
 <div class="newsletter-subscribe">
-    <div class="container">
+    <div class="container" id="contact">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12" >
                 <header class="entry-header">
-                    <h2 class="entry-title">Contact Us</h2>
+                    <h2 class="entry-title">Contact Us<br><br></h2>
                     <!-- <p>Join our datab</p> -->
                 </header>
 
@@ -703,8 +705,14 @@
 
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 align-items-center" style="margin: 50px 10px 10px 10px;">
+                        <div class="col-12 col-lg-8" >
                                 <div style="width: 100%"><iframe width="100%" height="400" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Delhi%20Technological%20University+(Delhi%20Technological%20University)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google Maps iframe generator</a></iframe></div><br />
+                        </div>
+                        <div class="col-12 col-lg-4" style="color: white; font-size: 20px; text-align: left;">
+                        		
+                        		<br>Utkarsh Singh<br>
+                        		(Student Section Representative)<br>
+                        		Mobile: (+91) 9868572706
                         </div>                        
                     </div>
                 </div>
@@ -724,12 +732,14 @@
                 <nav class="footer-navigation">
                     <ul class="flex flex-wrap justify-content-center align-items-center">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Events</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Contact</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#speakers">Speakers</a></li>
+                            <li><a href="#schedule">Schedule</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#sponsors">Sponsors</a></li>
+                            <li><a href="#contact">Contact</a></li>
                     </ul>
-                </nav>
+                </nav>	
 
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Developed by IEEE DTU<br> </a>
