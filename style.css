@@ -643,25 +643,21 @@ a:hover, a:active {
     }
 
     .homepage-featured-events .positioning-event-1 {
-        width: 290px;
+        width: 210px;
     }
 
     .homepage-featured-events .positioning-event-2 {
         width: 210px;
-        top: 192px;
-        left: 290px;
+
     }
 
     .homepage-featured-events .positioning-event-3 {
         width: 210px;
-        top: 75px;
-        left: 560px;
     }
 
     .homepage-featured-events .positioning-event-4 {
         width: 130px;
-        top: 235px;
-        left: 800px;
+
     }
 
     .homepage-featured-events .positioning-event-5 {
