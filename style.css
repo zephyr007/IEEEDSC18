@@ -2132,19 +2132,20 @@ ul.tabs-nav .tab-nav.active {
 # Site Footer
 --------------------------------------------------------------*/
 .site-footer {
-    padding: 75px 0;
+    padding: 20px 0;
     background: #08011e;
     text-align: center;
 }
 
 .footer-logo img {
-    max-width: 100%;
+    width: 30%;
+    height: 30% !important;
 }
 
 .footer-navigation ul,
 .footer-social ul {
     padding: 0;
-    margin: 32px 0 0;
+    margin: 20px 0 0;
     list-style: none;
 }
 
