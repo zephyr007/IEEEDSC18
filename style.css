@@ -218,8 +218,8 @@ a:hover, a:active {
 # Main Menu
 --------------------------------*/
 .site-navigation {
-    position: absolute;
-    top: -22px;
+    position: fixed;
+    top: 60px;
     right: 15px;
     z-index: 9999;
     width: 100%;
