@@ -556,6 +556,11 @@ a:hover, a:active {
     background: url("images/featured-events-bg.jpg") no-repeat center;
     height: 180% !important;
 }
+.homepage-featured-events1 {
+    padding: 110px 0 150px;
+    background: url("images/featured-events-bg1.png") no-repeat center;
+    height: 180% !important;
+}
 
 .homepage-featured-events .event-content-wrap {
     position: relative;
@@ -903,7 +908,7 @@ a:hover, a:active {
 .homepage-regional-events {
     min-height: 1500px;
     padding-top: 280px;
-    background: url("images/regional-events-bg.jpg") no-repeat;
+    background: url("images/back-galary.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -2231,4 +2236,5 @@ ul.tabs-nav .tab-nav.active {
     height: 30%;
   }
  }
+
 
