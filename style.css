@@ -2235,11 +2235,20 @@ ul.tabs-nav .tab-nav.active {
 
 
 
-@media (min-width: 300px) and (max-width: 900.98px) { 
+@media (min-width: 300px) and (max-width: 500px) { 
     #mainlogo{
     width: 45%;
     height: 30%;
   }
  }
+
+@media (min-width: 500px){
+    #mainlogo{
+        width: 160px;
+        height: 150px;
+    }
+}
+
+
 
 
