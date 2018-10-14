@@ -13,6 +13,10 @@ body {
     font-family: 'Calibri';
 }
 
+html{
+    overflow-x: hidden;
+}
+
 img {
     vertical-align: baseline;
     width : 100%;
