@@ -566,6 +566,18 @@ a:hover, a:active {
     background-size: cover;
     height: 180% !important;
 }
+.homepage-featured-events3 {
+    padding: 110px 0 150px;
+    background: url("images/day21.png") center;
+    background-size: cover;
+    height: 180% !important;
+}
+.homepage-featured-events2 {
+    padding: 110px 0 150px;
+    background: url("images/day11.png") center;
+    background-size: cover;
+    height: 180% !important;
+}
 
 .homepage-featured-events .event-content-wrap {
     position: relative;
