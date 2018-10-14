@@ -218,8 +218,8 @@ a:hover, a:active {
 # Main Menu
 --------------------------------*/
 .site-navigation {
-    position: absolute;
-    top: -22px;
+    position: fixed;
+    top: 60px;
     right: 15px;
     z-index: 9999;
     width: 100%;
@@ -2247,11 +2247,20 @@ ul.tabs-nav .tab-nav.active {
 
 
 
-@media (min-width: 300px) and (max-width: 900.98px) { 
+@media (min-width: 300px) and (max-width: 500px) { 
     #mainlogo{
     width: 45%;
     height: 30%;
   }
  }
+
+@media (min-width: 500px){
+    #mainlogo{
+        width: 160px;
+        height: 150px;
+    }
+}
+
+
 
 

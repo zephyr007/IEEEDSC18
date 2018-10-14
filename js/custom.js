@@ -36,6 +36,8 @@
         $('.dsec').html(event.strftime('%-S'));
     });
 
+
+
     mySwiper.on('slideChange', function (slider) {
         var current_slide = mySwiper.activeIndex;
         var countdown_date = $('.swiper-slide').eq(current_slide).data("date");
@@ -203,6 +205,11 @@
                 return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
             }
         });
+    });
+
+      $(".al").on('click',function(){
+        $('.site-navigation').toggleClass('show');
+        $('.hamburger-menu').toggleClass('open');
     });
 
     // Back to Top
