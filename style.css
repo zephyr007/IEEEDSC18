@@ -15,6 +15,7 @@ body {
 
 img {
     vertical-align: baseline;
+    width : 100%;
 }
 
 /*--------------------------------------------------------------
@@ -333,6 +334,7 @@ a:hover, a:active {
     line-height: 1.2;
     font-weight: bold;
     color: #fff;
+    margin : 0 auto;
 }
 
 .hero-slider .btn {
@@ -560,9 +562,11 @@ a:hover, a:active {
     padding: 36px 18px;
 }
 
-.homepage-featured-events .event-content-wrap figure {
-    margin: -36px -18px;
+.thumbnail {
+     margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 .homepage-featured-events .event-content-wrap figure img {
     display: block;
@@ -643,21 +647,25 @@ a:hover, a:active {
     }
 
     .homepage-featured-events .positioning-event-1 {
-        width: 210px;
+        width: 290px;
     }
 
     .homepage-featured-events .positioning-event-2 {
         width: 210px;
-
+        top: 192px;
+        left: 290px;
     }
 
     .homepage-featured-events .positioning-event-3 {
         width: 210px;
+        top: 75px;
+        left: 560px;
     }
 
     .homepage-featured-events .positioning-event-4 {
         width: 130px;
-
+        top: 235px;
+        left: 800px;
     }
 
     .homepage-featured-events .positioning-event-5 {
@@ -903,6 +911,7 @@ a:hover, a:active {
     font-size: 60px;
     font-weight: bold;
     color: #fff;
+    margin : 0 auto ;
 }
 
 .homepage-regional-events .select-location select {
@@ -941,9 +950,20 @@ a:hover, a:active {
     margin: 0;
 }
 
+.homepage-regional-events-slider .thumbnail img{
+    width : 70px;
+
+}
+
+
+.homepage-regional-events-slider .col {
+    padding : 0;
+}
+
+
 .homepage-regional-events-slider figure img {
     display: block;
-    width: 100%;
+    width: 500px;
 }
 
 .homepage-regional-events-slider .entry-title {
@@ -997,11 +1017,11 @@ a:hover, a:active {
     text-decoration: none;
     color: #fff;
 }
-
-.homepage-regional-events-slider .swiper-slide:hover .event-overlay-link {
+/*
+.homepage-regional-events .thumbnail:hover .event-overlay-link {
     visibility: visible;
     opacity: 1;
-}
+}*/
 
 .events-partners {
     padding: 120px 0;
@@ -2202,3 +2222,14 @@ ul.tabs-nav .tab-nav.active {
 .back-to-top path {
     fill: #fff;
 }
+
+
+
+@media (min-width: 300px) and (max-width: 900.98px) { 
+    #mainlogo{
+    width: 45%;
+    height: 30%;
+  }
+ }
+
+
