@@ -429,81 +429,97 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="btn-group">
+            <a class="btn gradient-bg" style="horiz-align: center;" onclick="myFunction2()">Day 1</a>
 
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="next-event-wrap">
+            <a class="btn gradient-bg" onclick="myFunction1()">Day 2</a>
 
-                    <figure>
-                        <a href="./DAY-1.html"><img src="images/Day1.png" alt="1"></a>
+            <script>
+                function myFunction2() {
+                    document.getElementById("time2").style.visibility = "hidden";
+                    document.getElementById("time1").style.visibility = "visible";
+                }
+                function myFunction1() {
+                    document.getElementById("time1").style.visibility = "hidden";
+                    document.getElementById("time2").style.visibility = "visible";
+                }
+            </script>
 
-                        <a href="./DAY-1.html"><div class="event-rating">DAY-1</div></a>
-                    </figure>
 
-                    <header class="entry-header">
-                        <a href="./DAY-1.html"><h3 class="entry-title">DAY 1</h3></a>
-
-                        <div class="posted-date">Saturday<span>, 3 NOV 2018</span></div>
-                    </header>
-
-                    <div class="entry-content">
-                      <!--  <p>Vestibulum eget lacus at mauris sagittis varius. Etiam ut venenatis dui. Nullam tellus risus.</p>-->
+        </div>
+            <div class="timeline" id="time1">
+                <div class="container left">
+                    <div class="content">
+                        <h2>card 1</h2>
+                        <p>Lorem ipsum..</p>
                     </div>
-
-                    <footer class="entry-footer">
-                        <a href="./DAY-1.html">Details</a>
-                    </footer>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h2>card 2</h2>
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </div><div class="container left">
+                <div class="content">
+                    <h2>card 3</h2>
+                    <p>Lorem ipsum..</p>
                 </div>
             </div>
-
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="next-event-wrap">
-                    <figure>
-                        <a style="width: 0px;"><img src="images/white.jpg" alt=""></a>
-
-                      <!--  <div class="event-rating">DAY-2</div>-->
-                    </figure>
-
-                <!---    <header class="entry-header">
-                        <h3 class="entry-title">DAY 2</h3>
-
-                        <div class="posted-date">Sunday_<span>4_NOV,2018</span></div>
-                    </header>
-
-                    <div class="entry-content">
-                        <p>Eget lacus at mauris sagittis varius. Etiam ut ven enatis dui. Nullam tellus risus, pellentesque.</p>
+                <div class="container right">
+                    <div class="content">
+                        <h2>card 4</h2>
+                        <p>Lorem ipsum..</p>
                     </div>
-
-                    <footer class="entry-footer">
-                        <a href="./DAY-2.html">Details</a>
-                    </footer>-->
+                </div><div class="container left">
+                <div class="content">
+                    <h2>card 5</h2>
+                    <p>Lorem ipsum..</p>
                 </div>
             </div>
-
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="next-event-wrap">
-                    <figure>
-                        <a href="./DAY-2.html"><img src="images/Day2.png" alt="1"></a>
-
-                        <a href="./DAY-2.html"><div class="event-rating">DAY 2</div></a>
-                    </figure>
-
-                    <header class="entry-header">
-                        <a href="./DAY-2.html"><h3 class="entry-title">DAY 2</h3></a>
-
-                        <div class="posted-date">Sunday<span>, 4 NOV 2018</span></div>
-                    </header>
-
-                    <div class="entry-content">
-                      <!--  <p>Lacus at mauris sagittis varius. Etiam ut venenatis dui. Nullam tellus risus, pellentesque at facili.</p>-->
+                <div class="container right">
+                    <div class="content">
+                        <h2>card 6</h2>
+                        <p>Lorem ipsum..</p>
                     </div>
-
-                    <footer class="entry-footer">
-                        <a href="./DAY-2.html">Details</a>
-                    </footer>
+                </div>
+            </div>
+        <div class="timeline" id="time2">
+            <div class="container left">
+                <div class="content">
+                    <h2>card 1</h2>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+            <div class="container right">
+                <div class="content">
+                    <h2>card 2</h2>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div><div class="container left">
+            <div class="content">
+                <h2>card 3</h2>
+                <p>Lorem ipsum..</p>
+            </div>
+        </div>
+            <div class="container right">
+                <div class="content">
+                    <h2>card 4</h2>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div><div class="container left">
+            <div class="content">
+                <h2>card 5</h2>
+                <p>Lorem ipsum..</p>
+            </div>
+        </div>
+            <div class="container right">
+                <div class="content">
+                    <h2>card 6</h2>
+                    <p>Lorem ipsum..</p>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 
