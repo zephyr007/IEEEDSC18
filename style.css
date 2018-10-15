@@ -347,7 +347,7 @@ a:hover, a:active {
 
 .swiper-container-horizontal >.swiper-pagination-bullets,
 .swiper-pagination-custom, .swiper-pagination-fraction {
-    max-width: 1110px;
+    width: 50%;
     right: 0;
     bottom: 48px;
     left: 0;
