@@ -435,13 +435,15 @@
         </div>
 
         <div class="btn-group">
-            <a class="btn gradient-bg" style="horiz-align: center;" onclick="myFunction2()">Day 1</a>
+            <a class="btn gradient-bg" style="horiz-align: center;" id="bt1o" onclick="myFunction2()">Day 1</a>
+            <p>         </p>
 
             <a class="btn gradient-bg" onclick="myFunction1()">Day 2</a>
 
             <script>
                 function myFunction2() {
                     document.getElementById("time2").style.visibility = "hidden";
+
                     document.getElementById("time1").style.visibility = "visible";
                 }
                 function myFunction1() {
