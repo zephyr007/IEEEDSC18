@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from colorlib.com/preview/theme/agenda/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Oct 2018 17:20:11 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
 
+$(document).ready(function() {
+    $("#second-day").hide();
+  $("#2").click(function() {
+    $("#first-day").hide();
+    $("#second-day").show(2000);
+  });
+  $("#1").click(function() {
+    $("#first-day").show(2000);
+    $("#second-day").hide();
+  });
+});
+
+
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127478991-1"></script>
 <script>
@@ -327,93 +342,7 @@
                 padding-top: 360px;
                 text-align: center;
                 color: grey;"><b>
-                    Coming Soon</b></h2><!--speaker Coming soon-->
-                <!-- <div class="featured-events-wrap flex flex-wrap justify-content-between">
-                    <div class="event-content-wrap positioning-event-1" style="left: 15%">
-                        <figure>
-                            <a href="#"><img src="images/1.jpg" alt="1"></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Michael Smith in concert</h3>
-
-                            <div class="posted-date">August 25</div>
-                        </header>
-                    </div>
-                    <div class="event-content-wrap positioning-event-1" style="left: 55%;top:450px">
-                        <figure>
-                            <a href="#"><img src="images/1.jpg" alt="1"></a>
-                        </figure>
-                        <header class="entry-header">
-                            <h3 class="entry-title">Michael Smith in concert</h3>
-
-                            <div class="posted-date">August 25</div>
-                        </header>
-                    </div> -->
-<!-- 
-                    <div class="event-content-wrap positioning-event-2">
-                        <figure>
-                            <a href="#"><img src="images/2.jpg" alt=""></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Street art fest</h3>
-
-                            <div class="posted-date">November 28</div>
-                        </header>
-                    </div>
-
-                    <div class="event-content-wrap positioning-event-3">
-                        <figure>
-                            <a href="#"><img src="images/3.jpg" alt=""></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Anabelle in concert</h3>
-
-                            <div class="posted-date">August 28</div>
-                        </header>
-                    </div>
-
-                   
-                    <div class="event-content-wrap positioning-event-7">
-                        <figure>
-                            <a href="#"><img src="images/90.jpg" alt=""></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">90’s Disco Night</h3>
-
-                            <div class="posted-date">August 28</div>
-                        </header>
-                    </div>
-
-                    <div class="event-content-wrap positioning-event-8">
-                        <figure>
-                            <a href="#"><img src="images/modern.jpg" alt="1"></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Modern Ballet</h3>
-
-                            <div class="posted-date">August 25</div>
-                        </header>
-                    </div>
-
-                    <div class="event-content-wrap positioning-event-9">
-                        <figure>
-                            <a href="#"><img src="images/smoke.jpg" alt=""></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Smoke show</h3>
-
-                            <div class="posted-date">August 28</div>
-                        </header>
-                    </div> -->
-
-                   
-
+                    Coming Soon</b></h2>
                 </div>
             </div>
 
@@ -427,86 +356,153 @@
     <div class="container" id="schedule">
         <div class="row align-items-center">
             <div class="next-events-section-header">
-                <h2 class="entry-title">SCHEDULE</h2>
+                <h2 style="text-align: center;" class="entry-title">SCHEDULE</h2>
                 <p style="text-align: center;">Mark your calendars for 3 and 4 November and fill in the events in the organisers because the schedule for DSC is here.</p>
             </div>
         </div>
 
-        <div class="row">
+        <div class="container">
+            <div class="row">
+                    
 
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="next-event-wrap">
+                                    <div class="mu-schedule-content-area">
+                                <!-- Nav tabs -->
+                               <ul class="mu-menu mu-navbar mu-schedule-menu" role="tablist">
+                                    <li id = "1" role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">3 NOV (DAY 1)</a></li>
+                                    <li id = "2"role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">4 NOV (DAY 2)</a></li>
+                                </ul>
 
-                    <figure>
-                        <a href="./DAY-1.html"><img src="images/Day1.png" alt="1"></a>
 
-                        <a href="./DAY-1.html"><div class="event-rating">DAY-1</div></a>
-                    </figure>
+                                <!-- Tab panes -->
+                                <div class="mu-schedule-content">
+                                    <div role="tabpanel" class="mu-event-timeline" id="first-day">
+                                        <ul>
+                                           <li>
+                                                <div class="mu-single-event">
+                                                    <h3>ICE-BREAKER</h3>
+                                                    <h3>9:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>INAUGURATION</h3>
+                                                    <h3>10:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>ADDRESS BY DR. RACHNA</h3>
+                                                    <h3>10:30 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>KEYNOTE SPEAKER</h3>
+                                                    <h3>11:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>TEA-SESSION</h3>
+                                                    <h3>11:30 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>YP,WIE,STUDENT TRACKS</h3>
+                                                    <h3>11:45 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>LUNCH</h3>
+                                                    <h3>1:30 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>SPEAKER</h3>
+                                                    <h3>2:30 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>EVENT</h3>
+                                                    <h3>3:15-5:00 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>BRANCH PRESENTATION</h3>
+                                                    <h3>5:00 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>CULTURAL NIGHT</h3>
+                                                    <h3>6:00 PM</h3>
+                                                </div>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
 
-                    <header class="entry-header">
-                        <a href="./DAY-1.html"><h3 class="entry-title">DAY 1</h3></a>
+                                    <div role="tabpanel" class="mu-event-timeline" id="second-day">
+                                        <ul>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>ICE-BREAKER</h3>
+                                                    <h3>9:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>GUEST LECTURES</h3>
+                                                    <h3>10:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>TEA-SESSION</h3>
+                                                    <h3>11:30 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>BRANCH COUNSELOR MEET AND STUDENT CHAIR MEET</h3>
+                                                    <h3>11:45 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>LUNCH</h3>
+                                                    <h3>1:30 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>GUEST SPEAKERS</h3>
+                                                    <h3>2:30 PM</h3>
+                                                </div>
+                                            </li>
+                                             <li>
+                                                <div class="mu-single-event">
+                                                    <h3>CLOSING CEREMONY AND AWARD DISTRIBUTION</h3>
+                                                    <h3>4:00 PM</h3>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
 
-                        <div class="posted-date">Saturday<span>, 3 NOV 2018</span></div>
-                    </header>
+                                </div>
 
-                    <div class="entry-content">
-                      <!--  <p>Vestibulum eget lacus at mauris sagittis varius. Etiam ut venenatis dui. Nullam tellus risus.</p>-->
-                    </div>
+                            </div>
 
-                    <footer class="entry-footer">
-                        <a href="./DAY-1.html">Details</a>
-                    </footer>
+                        </div>
+                    
                 </div>
             </div>
-
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="next-event-wrap">
-                    <figure>
-                        <a style="width: 0px;"><img src="images/white.jpg" alt=""></a>
-
-                      <!--  <div class="event-rating">DAY-2</div>-->
-                    </figure>
-
-                <!---    <header class="entry-header">
-                        <h3 class="entry-title">DAY 2</h3>
-
-                        <div class="posted-date">Sunday_<span>4_NOV,2018</span></div>
-                    </header>
-
-                    <div class="entry-content">
-                        <p>Eget lacus at mauris sagittis varius. Etiam ut ven enatis dui. Nullam tellus risus, pellentesque.</p>
-                    </div>
-
-                    <footer class="entry-footer">
-                        <a href="./DAY-2.html">Details</a>
-                    </footer>-->
-                </div>
-            </div>
-
-            <div class="col-12 col-sm-6 col-md-4">
-                <div class="next-event-wrap">
-                    <figure>
-                        <a href="./DAY-2.html"><img src="images/Day2.png" alt="1"></a>
-
-                        <a href="./DAY-2.html"><div class="event-rating">DAY 2</div></a>
-                    </figure>
-
-                    <header class="entry-header">
-                        <a href="./DAY-2.html"><h3 class="entry-title">DAY 2</h3></a>
-
-                        <div class="posted-date">Sunday<span>, 4 NOV 2018</span></div>
-                    </header>
-
-                    <div class="entry-content">
-                      <!--  <p>Lacus at mauris sagittis varius. Etiam ut venenatis dui. Nullam tellus risus, pellentesque at facili.</p>-->
-                    </div>
-
-                    <footer class="entry-footer">
-                        <a href="./DAY-2.html">Details</a>
-                    </footer>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -659,7 +655,7 @@
                 </figure>
 
                 <nav class="footer-navigation">
-                    <ul class="flex flex-wrap justify-content-center align-items-center">
+                    <ul style="list-style: none;" class="flex flex-wrap justify-content-center align-items-center">
                         <li><a href="#">Home</a></li>
                             <li><a href="#about">About us</a></li>
                             <li><a href="#speakers">Speakers</a></li>
@@ -677,7 +673,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
                 <div class="footer-social">
-                    <ul class="flex flex-wrap justify-content-center align-items-center">
+                    <ul style="list-style-type: none"class="flex flex-wrap justify-content-center align-items-center">
                         <li><a href="https://www.facebook.com/ieeedsc/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                 </div>
@@ -711,5 +707,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 </body>
 
-<!-- Mirrored from colorlib.com/preview/theme/agenda/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Oct 2018 17:20:30 GMT -->
 </html>
