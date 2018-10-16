@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from colorlib.com/preview/theme/agenda/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Oct 2018 17:20:11 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
 
+$(document).ready(function() {
+    $("#second-day").hide();
+  $("#2").click(function() {
+    $("#first-day").hide();
+    $("#second-day").show(2000);
+  });
+  $("#1").click(function() {
+    $("#first-day").show(2000);
+    $("#second-day").hide();
+  });
+});
+
+
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127478991-1"></script>
 <script>
@@ -329,93 +344,7 @@
                 padding-top: 360px;
                 text-align: center;
                 color: grey;"><b>
-                    Coming Soon</b></h2><!--speaker Coming soon-->
-                <!-- <div class="featured-events-wrap flex flex-wrap justify-content-between">
-                    <div class="event-content-wrap positioning-event-1" style="left: 15%">
-                        <figure>
-                            <a href="#"><img src="images/1.jpg" alt="1"></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Michael Smith in concert</h3>
-
-                            <div class="posted-date">August 25</div>
-                        </header>
-                    </div>
-                    <div class="event-content-wrap positioning-event-1" style="left: 55%;top:450px">
-                        <figure>
-                            <a href="#"><img src="images/1.jpg" alt="1"></a>
-                        </figure>
-                        <header class="entry-header">
-                            <h3 class="entry-title">Michael Smith in concert</h3>
-
-                            <div class="posted-date">August 25</div>
-                        </header>
-                    </div> -->
-<!-- 
-                    <div class="event-content-wrap positioning-event-2">
-                        <figure>
-                            <a href="#"><img src="images/2.jpg" alt=""></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Street art fest</h3>
-
-                            <div class="posted-date">November 28</div>
-                        </header>
-                    </div>
-
-                    <div class="event-content-wrap positioning-event-3">
-                        <figure>
-                            <a href="#"><img src="images/3.jpg" alt=""></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Anabelle in concert</h3>
-
-                            <div class="posted-date">August 28</div>
-                        </header>
-                    </div>
-
-                   
-                    <div class="event-content-wrap positioning-event-7">
-                        <figure>
-                            <a href="#"><img src="images/90.jpg" alt=""></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">90’s Disco Night</h3>
-
-                            <div class="posted-date">August 28</div>
-                        </header>
-                    </div>
-
-                    <div class="event-content-wrap positioning-event-8">
-                        <figure>
-                            <a href="#"><img src="images/modern.jpg" alt="1"></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Modern Ballet</h3>
-
-                            <div class="posted-date">August 25</div>
-                        </header>
-                    </div>
-
-                    <div class="event-content-wrap positioning-event-9">
-                        <figure>
-                            <a href="#"><img src="images/smoke.jpg" alt=""></a>
-                        </figure>
-
-                        <header class="entry-header">
-                            <h3 class="entry-title">Smoke show</h3>
-
-                            <div class="posted-date">August 28</div>
-                        </header>
-                    </div> -->
-
-                   
-
+                    Coming Soon</b></h2>
                 </div>
             </div>
 
@@ -429,241 +358,152 @@
     <div class="container" id="schedule">
         <div class="row align-items-center">
             <div class="next-events-section-header">
-                <h2 class="entry-title">SCHEDULE</h2>
+                <h2 style="text-align: center;" class="entry-title">SCHEDULE</h2>
                 <p style="text-align: center;">Mark your calendars for 3 and 4 November and fill in the events in the organisers because the schedule for DSC is here.</p>
             </div>
         </div>
+        <div class="container">
+            <div class="row">
+                    
 
-        <div class="btn-group">
-            <a class="btn gradient-bg" style="horiz-align: center;" id="bt1o" onclick="myFunction2()">Day 1</a>
-            <p>         </p>
-
-            <a class="btn gradient-bg" onclick="myFunction1()">Day 2</a>
-
-            <script>
-                function myFunction2() {
-                    document.getElementById("time2").style.visibility = "hidden";
-
-                    document.getElementById("time1").style.visibility = "visible";
-                }
-                function myFunction1() {
-                    document.getElementById("time1").style.visibility = "hidden";
-                    document.getElementById("time2").style.visibility = "visible";
-                }
-            </script>
-            <!--Cards style for time its buggy-->
-            <!--<style>
-                * {
-                    box-sizing: border-box;
-                }
-
-                /* Set a background color */
-                body {
-                    background-color: #474e5d;
-                    font-family: Helvetica, sans-serif;
-                }
-
-                /* The actual timeline (the vertical ruler) */
-                .timeline {
-                    position: relative;
-                    max-width: 1200px;
-                    margin: 0 auto;
-                }
-
-                /* The actual timeline (the vertical ruler) */
-                .timeline::after {
-                    content: '';
-                    position: absolute;
-                    width: 6px;
-                    background-color: white;
-                    top: 0;
-                    bottom: 0;
-                    left: 50%;
-                    margin-left: -3px;
-                }
-
-                /* Container around content */
-                .container {
-                    padding: 10px 40px;
-                    position: relative;
-                    background-color: inherit;
-                    width: 50%;
-                }
-
-                /* The circles on the timeline */
-                .container::after {
-                    content: '';
-                    position: absolute;
-                    width: 25px;
-                    height: 25px;
-                    right: -17px;
-                    background-color: white;
-                    border: 4px solid #FF9F55;
-                    top: 15px;
-                    border-radius: 50%;
-                    z-index: 1;
-                }
-
-                /* Place the container to the left */
-                .left {
-                    left: 0;
-                }
-
-                /* Place the container to the right */
-                .right {
-                    left: 50%;
-                }
-
-                /* Add arrows to the left container (pointing right) */
-                .left::before {
-                    content: " ";
-                    height: 0;
-                    position: absolute;
-                    top: 22px;
-                    width: 0;
-                    z-index: 1;
-                    right: 30px;
-                    border: medium solid white;
-                    border-width: 10px 0 10px 10px;
-                    border-color: transparent transparent transparent white;
-                }
-
-                /* Add arrows to the right container (pointing left) */
-                .right::before {
-                    content: " ";
-                    height: 0;
-                    position: absolute;
-                    top: 22px;
-                    width: 0;
-                    z-index: 1;
-                    left: 30px;
-                    border: medium solid white;
-                    border-width: 10px 10px 10px 0;
-                    border-color: transparent white transparent transparent;
-                }
-
-                /* Fix the circle for containers on the right side */
-                .right::after {
-                    left: -16px;
-                }
-
-                /* The actual content */
-                .content {
-                    padding: 20px 30px;
-                    background-color: white;
-                    position: relative;
-                    border-radius: 6px;
-                }
-
-                /* Media queries - Responsive timeline on screens less than 600px wide */
-                @media screen and (max-width: 600px) {
-                    /* Place the timelime to the left */
-                    .timeline::after {
-                        left: 31px;
-                    }
-
-                    /* Full-width containers */
-                    .container {
-                        width: 100%;
-                        padding-left: 70px;
-                        padding-right: 25px;
-                    }
-
-                    /* Make sure that all arrows are pointing leftwards */
-                    .container::before {
-                        left: 60px;
-                        border: medium solid white;
-                        border-width: 10px 10px 10px 0;
-                        border-color: transparent white transparent transparent;
-                    }
-
-                    /* Make sure all circles are at the same spot */
-                    .left::after, .right::after {
-                        left: 15px;
-                    }
-
-                    /* Make all right containers behave like the left ones */
-                    .right {
-                        left: 0%;
-                    }
-                }
-            </style>-->
+                                    <div class="mu-schedule-content-area">
+                                <!-- Nav tabs -->
+                               <ul class="mu-menu mu-navbar mu-schedule-menu" role="tablist">
+                                    <li id = "1" role="presentation" class="active hah" style="border: 0;"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab" style="padding: 10px;font-size: 20px;">3 NOV (DAY 1)</a></li>
+                                    <li id = "2"role="presentation" class="active hah"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab" style="padding: 10px;font-size: 20px;" >4 NOV (DAY 2)</a></li>
+                                </ul>
 
 
-        </div>
-            <div class="timeline" id="time1">
-                <div class="container left">
-                    <div class="content">
-                        <h2>card 1</h2>
-                        <p>Lorem ipsum..</p>
-                    </div>
-                </div>
-                <div class="container right">
-                    <div class="content">
-                        <h2>card 2</h2>
-                        <p>Lorem ipsum..</p>
-                    </div>
-                </div><div class="container left">
-                <div class="content">
-                    <h2>card 3</h2>
-                    <p>Lorem ipsum..</p>
+                                <!-- Tab panes -->
+                                <div class="mu-schedule-content">
+                                    <div role="tabpanel" class="mu-event-timeline" id="first-day">
+                                        <ul>
+                                           <li>
+                                                <div class="mu-single-event">
+                                                    <h3>ICE-BREAKER</h3>
+                                                    <h3>9:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>INAUGURATION</h3>
+                                                    <h3>10:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>ADDRESS BY DR. RACHNA</h3>
+                                                    <h3>10:30 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>KEYNOTE SPEAKER</h3>
+                                                    <h3>11:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>TEA-SESSION</h3>
+                                                    <h3>11:30 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>YP,WIE,STUDENT TRACKS</h3>
+                                                    <h3>11:45 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>LUNCH</h3>
+                                                    <h3>1:30 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>SPEAKER</h3>
+                                                    <h3>2:30 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>EVENT</h3>
+                                                    <h3>3:15-5:00 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>BRANCH PRESENTATION</h3>
+                                                    <h3>5:00 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>CULTURAL NIGHT</h3>
+                                                    <h3>6:00 PM</h3>
+                                                </div>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+
+                                    <div role="tabpanel" class="mu-event-timeline" id="second-day">
+                                        <ul>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>ICE-BREAKER</h3>
+                                                    <h3>9:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>GUEST LECTURES</h3>
+                                                    <h3>10:00 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>TEA-SESSION</h3>
+                                                    <h3>11:30 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>BRANCH COUNSELOR MEET AND STUDENT CHAIR MEET</h3>
+                                                    <h3>11:45 AM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>LUNCH</h3>
+                                                    <h3>1:30 PM</h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="mu-single-event">
+                                                    <h3>GUEST SPEAKERS</h3>
+                                                    <h3>2:30 PM</h3>
+                                                </div>
+                                            </li>
+                                             <li>
+                                                <div class="mu-single-event">
+                                                    <h3>CLOSING CEREMONY AND AWARD DISTRIBUTION</h3>
+                                                    <h3>4:00 PM</h3>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    
                 </div>
             </div>
-                <div class="container right">
-                    <div class="content">
-                        <h2>card 4</h2>
-                        <p>Lorem ipsum..</p>
-                    </div>
-                </div><div class="container left">
-                <div class="content">
-                    <h2>card 5</h2>
-                    <p>Lorem ipsum..</p>
-                </div>
-            </div>
-                <div class="container right">
-                    <div class="content">
-                        <h2>card 6</h2>
-                        <p>Lorem ipsum..</p>
-                    </div>
-                </div>
-            </div>
-        <div class="timeline" id="time2">
-            <div class="container left">
-                <div class="content">
-                    <h2>card 1</h2>
-                    <p>Lorem ipsum..</p>
-                </div>
-            </div>
-            <div class="container right">
-                <div class="content">
-                    <h2>card 2</h2>
-                    <p>Lorem ipsum..</p>
-                </div>
-            </div><div class="container left">
-            <div class="content">
-                <h2>card 3</h2>
-                <p>Lorem ipsum..</p>
-            </div>
-        </div>
-            <div class="container right">
-                <div class="content">
-                    <h2>card 4</h2>
-                    <p>Lorem ipsum..</p>
-                </div>
-            </div><div class="container left">
-            <div class="content">
-                <h2>card 5</h2>
-                <p>Lorem ipsum..</p>
-            </div>
-        </div>
-            <div class="container right">
-                <div class="content">
-                    <h2>card 6</h2>
-                    <p>Lorem ipsum..</p>
-                </div>
-            </div>
-        </div>
-
     </div>
 </div>
 
@@ -738,7 +578,7 @@
 
      <div class="events-partners" id="sponsors">
                     <header class="entry-header">
-                        <h2 class="entry-title">Previous Sponsers</h2>
+                        <h2 class="entry-title">Previous Sponsors</h2>
                     </header>
 <br><br><br>
                     <div class="row">
@@ -816,7 +656,7 @@
                 </figure>
 
                 <nav class="footer-navigation">
-                    <ul class="flex flex-wrap justify-content-center align-items-center">
+                    <ul style="list-style: none;" class="flex flex-wrap justify-content-center align-items-center">
                         <li><a href="#">Home</a></li>
                             <li><a href="#about">About us</a></li>
                             <li><a href="#speakers">Speakers</a></li>
@@ -834,7 +674,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
                 <div class="footer-social">
-                    <ul class="flex flex-wrap justify-content-center align-items-center">
+                    <ol style="list-style-type: none" class="flex flex-wrap justify-content-center align-items-center">
                         <li><a href="https://www.facebook.com/ieeedsc/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                     </ul>
                 </div>
@@ -868,5 +708,4 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 </body>
 
-<!-- Mirrored from colorlib.com/preview/theme/agenda/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 08 Oct 2018 17:20:30 GMT -->
 </html>
