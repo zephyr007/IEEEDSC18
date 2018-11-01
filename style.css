@@ -564,8 +564,8 @@ a:hover, a:active {
     height: 180% !important;
 }
 .homepage-featured-events1 {
-    padding: 110px 0 150px;
-    background: url("images/featured-events-bg1.png") center;
+
+    //background: url("images/featured-events-bg1.png") center;
     background-size: cover;
     height: 180% !important;
 }
@@ -4016,3 +4016,35 @@ button:focus {
 .navbar-toggle{
     background-color: #0B0C10 !important;
 }
+.card-img-top{
+
+    object-fit: contain;
+}
+.card-body{
+    max-height: 250px;
+    overflow-y:scroll;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    visibility: hidden;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    visibility: hidden;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    visibility: visible;
+}
+
