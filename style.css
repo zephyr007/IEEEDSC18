@@ -76,7 +76,7 @@ a:hover, a:active {
 
 .btn.gradient {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojQUEwMEZGOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM1ODE2ODc7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
-    background-image: -webkit-gradient(linear, left top,270deg, color-stop(0%, #AA00FF), color-stop(100%, #581687));
+    background-image: -webkit-gradient(linear, left top, 270deg, color-stop(0%, #AA00FF), color-stop(100%, #581687));
     background-image: -moz-linear-gradient(270deg,#AA00FF 0%,#581687 100%);
     background-image: -webkit-linear-gradient(270deg,#AA00FF 0%,#581687 100%);
     background-image: -o-linear-gradient(270deg,#AA00FF 0%,#581687 100%);
@@ -350,7 +350,7 @@ a:hover, a:active {
 
 .swiper-container-horizontal >.swiper-pagination-bullets,
 .swiper-pagination-custom, .swiper-pagination-fraction {
-    max-width: 1110px;
+    width: 50%;
     right: 0;
     bottom: 48px;
     left: 0;
@@ -564,20 +564,8 @@ a:hover, a:active {
     height: 180% !important;
 }
 .homepage-featured-events1 {
-
-    //background: url("images/featured-events-bg1.png") center;
-    background-size: cover;
-    height: 180% !important;
-}
-.homepage-featured-events3 {
     padding: 110px 0 150px;
-    background: url("images/day21.png") center;
-    background-size: cover;
-    height: 180% !important;
-}
-.homepage-featured-events2 {
-    padding: 110px 0 150px;
-    background: url("images/day11.png") center;
+    background: url("images/featured-events-bg1.png") center;
     background-size: cover;
     height: 180% !important;
 }
@@ -2268,6 +2256,7 @@ ul.tabs-nav .tab-nav.active {
         height: 150px;
     }
 }
+
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
@@ -4016,35 +4005,6 @@ button:focus {
 .navbar-toggle{
     background-color: #0B0C10 !important;
 }
-.card-img-top{
 
-    object-fit: contain;
-}
-.card-body{
-    height: 250px;
-    overflow-y:scroll;
-}
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-    display: none;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    visibility: hidden;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888;
-    visibility: hidden;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-    visibility: visible;
-}
 
