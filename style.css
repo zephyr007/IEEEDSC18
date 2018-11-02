@@ -4021,7 +4021,7 @@ button:focus {
     object-fit: contain;
 }
 .card-body{
-    max-height: 250px;
+    height: 250px;
     overflow-y:scroll;
 }
 /* width */
